@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import styles from './header.module.css'
 import NavTabs from './components/NavTabs/NavTabs'
 import tituloImg1 from '../../images/cleopatraTitulo.png'
 import tituloImg2 from '../../images/imagenHeader.png'
