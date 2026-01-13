@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+.tabFooter {
+  background: transparent;
+  border: 1px solid #16a34a;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #166534;
+}
+
+button:hover {
+  background-color: #dcfce7;
+}

@@ -1,0 +1,262 @@
+.nav{
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Estilo del boton no seleccionado */
+.tabLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: linear-gradient(
+    180deg,
+    #fff9d6 0%,
+    #ffeaa3 25%,
+    #f3d37a 55%,
+    #e6c35c 75%,
+    #d6b24a 100%
+  );
+  color: #2a1b00;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    transform 0.08s ease,
+    filter 0.12s ease,
+    box-shadow 0.08s ease;
+}
+
+
+.tabLink:hover {
+  filter: brightness(1.08) saturate(1.1);
+}
+
+
+/* Estilo del boton no ACTIVADO */
+.tabActive {
+  background: linear-gradient(
+    180deg,
+    #f1cf6a 0%,
+    #d4a63f 30%,
+    #b8892e 55%,
+    #d1a85a 75%,
+    #9a6f24 100%
+  );
+  color: #3b1e0a;
+}
+
+
+
+
+/* ========================= */
+/*        Responsive         */
+/* ========================= */
+
+/* XS — móviles pequeños */
+@media (max-width: 360px) {
+
+      .nav{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo del boton no ACTIVADO */
+      .tabLink {
+        border: 1px solid #3a2a00;
+        border-radius: 12px;
+        padding: 5px 11px;
+        letter-spacing: 1px;
+        box-shadow:
+          0 3px 0 #3a2a00,
+          inset 0 1px 0 rgba(255,255,255,.6),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+      /* .tabLink:hover{
+      } */
+
+      /* Estilo del boton ACTIVADO */
+      .tabActive {
+        transform: translateY(2px);
+        box-shadow:
+          0 3px 0 #f0d898,
+          inset 1px 1px 1px rgba(255, 255, 255, 0.795),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+}
+
+
+
+
+/* SM — móviles */
+@media (min-width: 361px) and (max-width: 480px) {
+  
+      .nav{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo del boton no ACTIVADO */
+      .tabLink {
+        border: 1px solid #3a2a00;
+        border-radius: 12px;
+        padding: 5px 11px;
+        letter-spacing: 1px;
+        box-shadow:
+          0 3px 0 #3a2a00,
+          inset 0 1px 0 rgba(255,255,255,.6),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+      /* .tabLink:hover{
+      } */
+
+      /* Estilo del boton ACTIVADO */
+      .tabActive {
+        transform: translateY(2px);
+        box-shadow:
+          0 3px 0 #f0d898,
+          inset 1px 1px 1px rgba(255, 255, 255, 0.795),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+}
+
+/* MD — tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+      .nav{
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo del boton no ACTIVADO */
+      .tabLink {
+        border: 1px solid #3a2a00;
+        border-radius: 12px;
+        padding: 5px 11px;
+        letter-spacing: 1px;
+        box-shadow:
+          0 3px 0 #3a2a00,
+          inset 0 1px 0 rgba(255,255,255,.6),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+      /* .tabLink:hover{
+      } */
+
+      /* Estilo del boton ACTIVADO */
+      .tabActive {
+        transform: translateY(2px);
+        box-shadow:
+          0 3px 0 #f0d898,
+          inset 1px 1px 1px rgba(255, 255, 255, 0.795),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+}
+
+/* LG — laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+      .nav{
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo del boton no ACTIVADO */
+      .tabLink {
+        border: 1px solid #3a2a00;
+        border-radius: 12px;
+        padding: 5px 11px;
+        letter-spacing: 1px;
+        box-shadow:
+          0 3px 0 #3a2a00,
+          inset 0 1px 0 rgba(255,255,255,.6),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+      /* .tabLink:hover{
+      } */
+
+      /* Estilo del boton ACTIVADO */
+      .tabActive {
+        transform: translateY(2px);
+        box-shadow:
+          0 3px 0 #f0d898,
+          inset 1px 1px 1px rgba(255, 255, 255, 0.795),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+}
+
+/* XL — desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+      .nav{
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo del boton no ACTIVADO */
+      .tabLink {
+        border: 1px solid #3a2a00;
+        border-radius: 12px;
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        box-shadow:
+          0 3px 0 #3a2a00,
+          inset 0 1px 0 rgba(255,255,255,.6),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+      /* .tabLink:hover{
+      } */
+
+      /* Estilo del boton ACTIVADO */
+      .tabActive {
+        transform: translateY(2px);
+        box-shadow:
+          0 3px 0 #f0d898,
+          inset 1px 1px 1px rgba(255, 255, 255, 0.795),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+}
+
+/* 2XL — pantallas grandes */
+@media (min-width: 1281px) {
+
+      .nav{
+        gap: 3rem;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo del boton no ACTIVADO */
+      .tabLink {
+        border: 1px solid #3a2a00;
+        border-radius: 12px;
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        box-shadow:
+          0 3px 0 #3a2a00,
+          inset 0 1px 0 rgba(255,255,255,.6),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+      /* .tabLink:hover{
+      } */
+
+      /* Estilo del boton ACTIVADO */
+      .tabActive {
+        transform: translateY(2px);
+        box-shadow:
+          0 3px 0 #f0d898,
+          inset 1px 1px 1px rgba(255, 255, 255, 0.795),
+          inset 0 -2px 0 rgba(0,0,0,.25);
+      }
+
+}
