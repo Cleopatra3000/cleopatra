@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './footer.module.css'
 import FooterNavTabs from './components/FooterNavTabs/FooterNavTabs'
 
 const Footer = () => {
