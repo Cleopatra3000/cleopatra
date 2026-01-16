@@ -17,8 +17,8 @@ const App = () => {
                 <Route path="/" element={<Tab1 />} />
                 <Route path="/tab2" element={<Tab2 />} />
                 <Route path="/tab3" element={<Tab3 />} />
-            {/* <Route path="/tab4" element={<Tab4 />} />
-                <Route path="/tab5" element={<Tab5 />} /> */}
+            {/* <Route path="/tab4" element={<Tab4 />} />*/}
+                
           </Routes>
 
       </Layout>
