@@ -11,7 +11,7 @@ const NavTabs = () => {
           `${styles.tabLink} ${isActive ? styles.tabActive : ''}`
         }
       >
-        SOBRE MI
+        CONÓCEME
       </NavLink>
 
       <NavLink
@@ -20,7 +20,7 @@ const NavTabs = () => {
           `${styles.tabLink} ${isActive ? styles.tabActive : ''}`
         }
       >
-        CONÓCEME
+        SOBRE MI
       </NavLink>
 
       <NavLink

@@ -4,38 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* gap: 1rem; */
 }
-
-
-.inner {
-  display: flex;
-  align-items: center; 
-
-  /* gap: 5px;  */      
-  /* border: solid #000000 2px; */
-}
-
-
-.texto {
-    /* flex: 1;                  */
-    background-color: #e3e9c4;
-    min-width: 0;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    text-align: justify;
-    
-    /* line-height: 1.4;
-    padding: 12px; */
-}
-
-
-.columna {
-  /* width: 35px;
-  height: 150px; */
-}
-
 
 
 
@@ -48,274 +17,57 @@
 @media (max-width: 360px) {
 
       .TabShell {
-        /* width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;*/
-
         gap: 1rem;
       }
 
-
-      .inner {
-        /* display: flex;
-        align-items: center;  */
-
-        gap: 5px;       
-        /* border: solid #000000 2px; */
-      }
-
-
-      .texto {
-          /* flex: 1;                 
-          background-color: #e3e9c4;
-          min-width: 0;
-          overflow-wrap: break-word;
-          word-break: break-word; */
-          
-          line-height: 1.4;
-          padding: 12px;
-          width: 180px;
-          height: 150px;
-      }
-
-
-      .columna {
-        width: 35px;
-        height: 150px;
-      }
-
-
 }
-
-
 
 
 /* SM — móviles */
 @media (min-width: 361px) and (max-width: 480px) {
 
       .TabShell {
-        /* width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;*/
-
         gap: 1rem;
       }
 
-
-      .inner {
-        /* display: flex;
-        align-items: center;  */
-
-        gap: 5px;       
-      }
-
-
-      .texto {
-          /* flex: 1;                 
-          background-color: #e3e9c4;
-          min-width: 0;
-          overflow-wrap: break-word;
-          word-break: break-word; */
-          
-          line-height: 1.4;
-          padding: 15px;
-          width: 220px;
-          height: 180px;
-      }
-
-
-      .columna {
-        width: 50px;
-        height: 200px;
-      }
-
 }
-
-
 
 
 /* MD — tablets */
 @media (min-width: 481px) and (max-width: 768px) {
 
       .TabShell {
-        /* width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;*/
-
         gap: 1rem;
       }
 
-
-      .inner {
-        /* display: flex;
-        align-items: center;  */
-
-        gap: 5px;       
-      }
-
-
-      .texto {
-          /* flex: 1;                 
-          background-color: #e3e9c4;
-          min-width: 0;
-          overflow-wrap: break-word;
-          word-break: break-word; */
-          
-          line-height: 1.4;
-          padding: 15px;
-          width: 290px;
-          height: 210px;
-      }
-
-
-      .columna {
-        width: 60px;
-        height: 240px;
-      }
-
 }
-
-
 
 
 /* LG — laptop */
 @media (min-width: 769px) and (max-width: 1024px) {
 
       .TabShell {
-        /* width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;*/
-
         gap: 5rem;
       }
 
-
-      .inner {
-        /* display: flex;
-        align-items: center;  */
-
-        gap: 5px;       
-
-      }
-
-
-      .texto {
-          /* flex: 1;                 
-          background-color: #e3e9c4;
-          min-width: 0;
-          overflow-wrap: break-word;
-          word-break: break-word; */
-          line-height: 1.4;
-          padding: 50px;
-          width: 400px;
-          height: 300px;
-      }
-
-
-      .columna {
-        width: 100px;
-        height: 350px;
-      }
-
 }
-
-
 
 
 /* XL — desktop */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
       .TabShell {
-        /* width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;*/
-
         gap: 5rem;
       }
 
-
-      .inner {
-        /* display: flex;
-        align-items: center;  */
-
-        gap: 5px;       
-      }
-
-
-      .texto {
-          /* flex: 1;                 
-          background-color: #e3e9c4;
-          min-width: 0;
-          overflow-wrap: break-word;
-          word-break: break-word; */
-          
-          line-height: 1.4;
-          padding: 50px;
-          width: 500px;
-          height: 350px;
-      }
-
-
-      .columna {
-        width: 150px;
-        height: 400px;
-      }
-
 }
-
-
 
 
 /* 2XL — pantallas grandes */
 @media (min-width: 1281px) {
 
       .TabShell {
-        /* width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;*/
-
         gap: 5rem;
-      }
-
-
-      .inner {
-        /* display: flex;
-        align-items: center;  */
-
-        gap: 5px;       
-
-      }
-
-
-      .texto {
-          /* flex: 1;                 
-          background-color: #e3e9c4;
-          min-width: 0;
-          overflow-wrap: break-word;
-          word-break: break-word; */
-          
-          line-height: 1.4;
-          padding: 60px;
-          width: 600px;
-          height: 410px;
-      }
-
-
-      .columna {
-        width: 200px;
-        height: 500px;
       }
 
 }

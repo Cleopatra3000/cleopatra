@@ -1,0 +1,203 @@
+.inner {
+  display: flex;
+  align-items: center; 
+}
+
+
+.texto {
+    background-color: #e3e9c4;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+}
+
+
+.columna {
+}
+
+
+.contenidoImagen{
+  display: block;
+  min-width: 0;
+  object-fit: contain;
+  background-color: #e3e9c4; /* si quieres que tenga el mismo fondo */
+}
+
+
+/* ========================= */
+/*        Responsive         */
+/* ========================= */
+
+/* XS — móviles pequeños */
+@media (max-width: 360px) {
+
+      .inner {
+        gap: 5px;       
+      }
+
+      .texto {
+          line-height: 1.4;
+          padding: 12px;
+          width: 180px;
+          height: 150px;
+      }
+
+      .columna {
+        width: 35px;
+        height: 150px;
+      }
+
+      .contenidoImagen{
+        width: 180px;
+        height: 150px;
+      }
+
+}
+
+
+
+
+/* SM — móviles */
+@media (min-width: 361px) and (max-width: 480px) {
+
+      .inner {
+        gap: 5px;       
+      }
+
+      .texto {
+          line-height: 1.4;
+          padding: 15px;
+          width: 220px;
+          height: 180px;
+      }
+
+      .columna {
+        width: 50px;
+        height: 200px;
+      }
+
+      .contenidoImagen{
+        width: 220px;
+        height: 180px;
+      }
+
+}
+
+
+
+
+/* MD — tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+      .inner {
+        gap: 5px;       
+      }
+
+      .texto {
+          line-height: 1.4;
+          padding: 15px;
+          width: 290px;
+          height: 210px;
+      }
+
+      .columna {
+        width: 60px;
+        height: 240px;
+      }
+
+      .contenidoImagen{
+        width: 290px;
+        height: 210px;
+      }
+
+}
+
+
+
+
+/* LG — laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+      .inner {
+        gap: 5px;       
+      }
+
+      .texto {
+          line-height: 1.4;
+          padding: 50px;
+          width: 400px;
+          height: 300px;
+      }
+
+      .columna {
+        width: 100px;
+        height: 350px;
+      }
+
+      .contenidoImagen{
+        width: 400px;
+        height: 300px;
+      }
+
+}
+
+
+
+
+/* XL — desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+      .inner {
+        gap: 5px;       
+      }
+
+      .texto {
+          line-height: 1.4;
+          padding: 50px;
+          width: 500px;
+          height: 350px;
+      }
+
+      .columna {
+        width: 150px;
+        height: 400px;
+      }
+
+      .contenidoImagen{
+        width: 500px;
+        height: 350px;
+      }  
+
+}
+
+
+
+
+/* 2XL — pantallas grandes */
+@media (min-width: 1281px) {
+
+      .inner {
+        gap: 5px;       
+
+      }
+
+      .texto {
+          line-height: 1.4;
+          padding: 60px;
+          width: 600px;
+          height: 410px;
+      }
+
+      .columna {
+        width: 200px;
+        height: 500px;
+      }
+
+      .contenidoImagen{
+        width: 600px;
+        height: 410px;
+      }
+
+}
