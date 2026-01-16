@@ -3,7 +3,7 @@ import foto1 from '../../images/fotos/foto1.jpg'
 import foto2 from '../../images/fotos/foto2.jpg'
 import foto3 from '../../images/fotos/foto3.jpg'
 import foto4 from '../../images/fotos/foto4.jpg'
-import styles from './tab1_tmp.module.css'
+import styles from './tab1.module.css'
 
 
 
