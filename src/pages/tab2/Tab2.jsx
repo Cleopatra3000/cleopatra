@@ -1,4 +1,4 @@
-import styles from './tab2.module.css'
+import styles from './tab2_tmp.module.css'
 import Card from '../../components/Card/card'
 
 const Tab2 = () => {
