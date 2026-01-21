@@ -1,9 +1,13 @@
+import { useState } from 'react'
 import styles from './header.module.css'
 import NavTabs from './components/NavTabs/NavTabs'
 import tituloImg1 from '../../images/cleopatraTitulo.png'
 import tituloImg2 from '../../images/imagenHeader.png'
 
 const Header = () => {
+
+  const [fullImage, setFullImage] = useState(false)
+
   return (
     <>
         <header className={styles.header1}>
@@ -13,6 +17,7 @@ const Header = () => {
                 src={tituloImg2}
                 alt="imagenHeader1"
                 className={styles.titleImage2}
+                onClick={() => setFullImage(true)}
               />
 
               <div className={styles.tituloyTabsContainer}>
@@ -32,6 +37,7 @@ const Header = () => {
                 src={tituloImg2}
                 alt="imagenHeader2"
                 className={styles.titleImage2}
+                onClick={() => setFullImage(true)}
               />
 
 
@@ -46,7 +52,9 @@ const Header = () => {
                       src={tituloImg2}
                       alt="imagenHeader1"
                       className={styles.titleImage2}
+                      onClick={() => setFullImage(true)}
                     />
+
                     
                     {/* IMAGEN CENTRAL – CLEOPATRA */}
                     <img
@@ -60,6 +68,7 @@ const Header = () => {
                       src={tituloImg2}
                       alt="imagenHeader2"
                       className={styles.titleImage2}
+                      onClick={() => setFullImage(true)}
                     />                    
 
               </div>     
@@ -67,6 +76,22 @@ const Header = () => {
               <NavTabs />
 
         </header>
+
+        {fullImage && 
+            (
+                <div
+                  className={styles.fullscreenOverlay}
+                  onClick={() => setFullImage(false)}
+                >
+                  <img
+                    src={tituloImg2}
+                    alt="imagenHeader1 full"
+                    className={styles.fullscreenImage}
+                  />
+                </div>
+            )
+        }
+
     </>
   )
 }

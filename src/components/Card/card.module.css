@@ -5,16 +5,54 @@
 
 
 .texto {
-    background-color: #e3e9c4;
-    min-width: 0;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    text-align: justify;
+  background-color: #e3e9c4;
+  min-width: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  text-align: left;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.numero {
+  display: inline-flex;   /* 👈 CLAVE */
+  align-items: center;
+  justify-content: center;
+  width: auto;            /* 👈 evita que se estire */
+  padding: 2px 5px 1px 5px;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    #fff6cc 0%,
+    #f2d27a 35%,
+    #d4a63f 65%,
+    #b8892e 100%
+  );
+  color: #2a1b00;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border: 2px solid #6f4e14;
+  box-shadow:
+    0 3px 0 #3a2600,
+    inset 0 1px 0 rgba(255,255,255,.6),
+    inset 0 -2px 0 rgba(0,0,0,.25);
+}
+
+.whatsappLink{
+ text-decoration: none;
+}
 
 .columna {
 }
+
 
 
 .contenidoImagen{
@@ -23,6 +61,26 @@
   object-fit: contain;
   background-color: #e3e9c4; /* si quieres que tenga el mismo fondo */
 }
+
+
+.fullscreenOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+
+.fullscreenImage {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+
 
 
 /* ========================= */
@@ -41,6 +99,10 @@
           padding: 12px;
           width: 180px;
           height: 150px;
+      }
+
+      .numero {
+        padding: 2px 5px 1px 5px;
       }
 
       .columna {
@@ -77,6 +139,10 @@
         height: 200px;
       }
 
+      .numero {
+        padding: 2px 6px 1px 6px;
+      }
+
       .contenidoImagen{
         width: 220px;
         height: 180px;
@@ -99,6 +165,10 @@
           padding: 15px;
           width: 290px;
           height: 210px;
+      }
+
+      .numero {
+        padding: 2px 7px 1px 7px;
       }
 
       .columna {
@@ -128,6 +198,10 @@
           padding: 50px;
           width: 400px;
           height: 300px;
+      }
+
+      .numero {
+        padding: 2px 10px 1px 10px;
       }
 
       .columna {
@@ -165,6 +239,10 @@
         height: 400px;
       }
 
+      .numero {
+        padding: 2px 12px 1px 12px;
+      }
+
       .contenidoImagen{
         width: 500px;
         height: 350px;
@@ -188,6 +266,10 @@
           padding: 60px;
           width: 600px;
           height: 410px;
+      }
+
+      .numero {
+        padding: 2px 15px 1px 15px;
       }
 
       .columna {
