@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './layout/Layout'
-import Tab1 from './pages/tab1/tab1_temp.jsx'
-import Tab2 from './pages/tab2/tab2_temp.jsx'
-import Tab3 from './pages/tab3/tab3_temp.jsx'
+import Tab1 from './pages/tab1/tab1.jsx'
+import Tab2 from './pages/tab2/tab2.jsx'
+import Tab3 from './pages/tab3/tab3.jsx'
 import Tab4 from './pages/tab4/Tab4'
 
 

@@ -1,4 +1,4 @@
-import styles from './tab3_tmp.module.css'
+import styles from './tab3.module.css'
 import ContactoWhasap from "./components/ContactoWhasap/contactoWhasap"
 import comer from '../../images/comer.png'
 import cine from '../../images/cine.png'
@@ -18,8 +18,6 @@ const Tab3 = () => {
 
       <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres salir a comer algo"} />
 
-      <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres salir a comer algo"} />
-      
     </div>
   )
 }
