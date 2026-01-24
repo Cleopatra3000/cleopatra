@@ -1,5 +1,6 @@
+import { EscribemeWhasap } from './components/EscribemeWhasap/escribemeWhasap'
 import styles from './footer.module.css'
-import { EscribemeWhasap } from '../../components/EscribemeWhasap/escribemeWhasap'
+
 
 const Footer = () => {
   return (

@@ -1,10 +1,22 @@
-import { EscribemeWhasap } from "../../components/EscribemeWhasap/escribemeWhasap"
+import styles from './tab3.module.css'
+import ContactoWhasap from "./components/ContactoWhasap/contactoWhasap"
+import comer from '../../images/comer.png'
+import cine from '../../images/cine.png'
+import hola from '../../images/hola.png'
+import saludame from '../../images/saludame.png'
+
 
 const Tab3 = () => {
   return (
     <section>
 
-      <EscribemeWhasap />
+      <ContactoWhasap Imagen={comer} mensajeWhatsapp={"hola quieres salir a comer algo"} />
+
+      <ContactoWhasap Imagen={cine} mensajeWhatsapp={"hola quieres ir al cine"} />
+
+      <ContactoWhasap Imagen={hola} mensajeWhatsapp={"hola que tal"} />
+
+      <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres salir a comer algo"} />
       
     </section>
   )

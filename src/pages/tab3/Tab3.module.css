@@ -1,0 +1,65 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* XS — móviles pequeños */
+@media (max-width: 360px) {
+
+      section {
+        gap: 1rem;
+      }
+
+}
+
+
+/* SM — móviles */
+@media (min-width: 361px) and (max-width: 480px) {
+
+      section {
+        gap: 1rem;
+      }
+
+}
+
+
+/* MD — tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+      section {
+        gap: 1rem;
+      }
+
+}
+
+
+/* LG — laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+      section {
+        gap: 5rem;
+      }
+
+}
+
+
+/* XL — desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+      section {
+        gap: 5rem;
+      }
+
+}
+
+
+/* 2XL — pantallas grandes */
+@media (min-width: 1281px) {
+
+      section {
+        gap: 5rem;
+      }
+
+}

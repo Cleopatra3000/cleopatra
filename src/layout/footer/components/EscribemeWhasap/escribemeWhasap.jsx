@@ -1,9 +1,10 @@
 import styles from './escribemeWhasap.module.css'
-import escribirImagen from '../../images/escribeme.png'
-import whasapimage from '../../images/whasapp.png'
+import escribirImagen from '../../../../images/escribeme.png'
+import whasapimage from '../../../../images/whasapp.png'
 
 
 export const EscribemeWhasap = () => {
+
   return (
     <div className={styles.inner1}>
     
