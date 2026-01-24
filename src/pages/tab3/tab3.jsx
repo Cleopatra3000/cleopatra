@@ -16,7 +16,7 @@ const Tab3 = () => {
 
       <ContactoWhasap Imagen={hola} mensajeWhatsapp={"hola que tal"} />
 
-      <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres salir a comer algo"} />
+      <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres hablar"} />
 
     </div>
   )
