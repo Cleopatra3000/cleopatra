@@ -8,7 +8,7 @@ import saludame from '../../images/saludame.png'
 
 const Tab3 = () => {
   return (
-    <section className={styles.section}>
+    <div className={styles.inner}>
 
       <ContactoWhasap Imagen={comer} mensajeWhatsapp={"hola quieres salir a comer algo"} />
 
@@ -17,9 +17,12 @@ const Tab3 = () => {
       <ContactoWhasap Imagen={hola} mensajeWhatsapp={"hola que tal"} />
 
       <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres salir a comer algo"} />
+
+      <ContactoWhasap Imagen={saludame} mensajeWhatsapp={"hola quieres salir a comer algo"} />
       
-    </section>
+    </div>
   )
 }
+
 
 export default Tab3
