@@ -19,7 +19,7 @@
 /* XS — móviles pequeños */
 @media (max-width: 360px) {
 
-      section {
+      .appMain {
         padding-top: 1rem;
         padding-bottom: 1rem;
       }
@@ -30,7 +30,7 @@
 /* SM — móviles */
 @media (min-width: 361px) and (max-width: 480px) {
 
-      section {
+      .appMain {
         padding-top: 1rem;
         padding-bottom: 1rem;
       }
@@ -41,7 +41,7 @@
 /* MD — tablets */
 @media (min-width: 481px) and (max-width: 768px) {
 
-      section {
+      .appMain {
         padding-top: 1rem;
         padding-bottom: 1rem;
       }
@@ -52,7 +52,7 @@
 /* LG — laptop */
 @media (min-width: 769px) and (max-width: 1024px) {
 
-      section {
+      .appMain {
         padding-top: 5rem;
         padding-bottom: 5rem;
       }
@@ -63,7 +63,7 @@
 /* XL — desktop */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-      section {
+      .appMain {
         padding-top: 5rem;
         padding-bottom: 5rem;
       }
@@ -74,7 +74,7 @@
 /* 2XL — pantallas grandes */
 @media (min-width: 1281px) {
 
-      section {
+      .appMain {
         padding-top: 5rem;
         padding-bottom: 5rem;
       }
