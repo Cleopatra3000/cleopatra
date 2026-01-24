@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Tab1 from './pages/tab1/Tab1'
 import Tab2 from './pages/tab2/Tab2'
-import Tab3 from './pages/tab3/Tab3'
+import Tab3 from './pages/tab3/tab3'
 import Tab4 from './pages/tab4/Tab4'
 import Tab5 from './pages/tab5/Tab5'
 
