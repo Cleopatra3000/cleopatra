@@ -5,26 +5,25 @@ const Tab2 = () => {
 
 const CARD_TEXT_1 = `
 Hola, soy Cleopatra. Soy una mujer educada y con buena presencia. 
-Me gusta aprovechar el tiempo, disfrutar de buenos momentos y vivir 
-experiencias agradables. Si buscas compartir algo especial, escríbeme.
+Me gusta disfrutar del momento y vivir experiencias especiales. 
+Si buscas algo bonito, escríbeme.
 `.trim()
 
 const CARD_TEXT_2 = `
-En mi tiempo libre voy al gimnasio y entreno para mantenerme en forma. 
-También me apasionan los deportes de riesgo. ¿Te animas a acompañarme?
+En mi tiempo libre entreno y me mantengo en forma. 
+También me encantan los deportes de riesgo. ¿Te animas?
 `.trim()
 
 const CARD_TEXT_3 = `
-También me encanta salir a cenar a buenos restaurantes de la ciudad. 
-Es el plan ideal para mirarnos con calma, conversar sin prisas y 
-compartir un momento especial juntos.
+Me encanta salir a cenar a buenos restaurantes. 
+Es el plan perfecto para conversar con calma y 
+compartir un momento especial.
 `.trim()
 
 const CARD_TEXT_4 = `
-Si eres una persona educada y apasionada, no dudes en llamarme. 
-Vivo en Madrid, en la zona de Plaza Castilla, y 
-estoy segura de que, si compartimos alguno de estos planes, ambos 
-viviremos momentos inolvidables.
+Si eres una persona educada y apasionada, llámame. 
+Vivo en Madrid, zona Plaza Castilla, y juntos podemos 
+vivir momentos inolvidables.
 `.trim()
 
   return (
