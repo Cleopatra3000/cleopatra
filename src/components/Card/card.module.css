@@ -10,15 +10,17 @@
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   letter-spacing: 0.2px;
   font-weight: 700;
-  text-align: left;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  word-break: normal;
+  text-align: center;
+
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: keep-all;
+
   padding: 16px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
